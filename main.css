@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0,0%,98%);
+    min-height: 100vh; 
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px ;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box1, .box2, .box3, .box4{
+    flex: 1 1 280;
+    max-width: 100%;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    margin-left: -30px;
+    font-size: 10px;
+}
+h1 span{
+    font-weight:100;
+}
+.container{
+    width: 70%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box1{
+    background-color: white;
+    border-top: hsl(180, 62%, 55%) solid 4px;
+    padding: 17px;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+}
+.box2{
+    background-color: white;
+    border-top: hsl(0, 78%, 62%) solid 4px;
+    padding: 17px;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.box2 img{
+    margin-top: -7px;
+}
+.box3{
+    background-color: white;
+    border-top: hsl(34, 97%, 64%) solid 4px;
+    padding: 17px;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+}
+.box4{
+    background-color: white;
+    border-top: hsl(212, 86%, 64%) solid 4px;
+    padding: 10px;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+h2{
+    align-self: flex-start;
+    margin-left: 0;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+}
+@media (max-width: 600px) {
+  .container { 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  }
+.box1, .box2, .box3, .box4{
+    grid-area: unset;
+    max-width: 100%;}
