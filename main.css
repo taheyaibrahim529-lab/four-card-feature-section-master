@@ -39,7 +39,6 @@ h1 span{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     gap: 20px;
-    background-color:pink;
     
 }
 
@@ -47,7 +46,7 @@ h1 span{
     background-color: white;
     border-top: hsl(180, 62%, 55%) solid 4px;
     padding: 17px;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     grid-column: 1;
     grid-row: 1;
@@ -63,7 +62,7 @@ h1 span{
     background-color: white;
     border-top: hsl(0, 78%, 62%) solid 4px;
     padding: 17px;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     grid-column: 2;
     grid-row: 1;
@@ -80,7 +79,7 @@ h1 span{
     background-color: white;
     border-top: hsl(34, 97%, 64%) solid 4px;
     padding: 17px;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     grid-column: 2;
     grid-row: 2;
@@ -95,7 +94,7 @@ h1 span{
     background-color: white;
     border-top: hsl(212, 86%, 64%) solid 4px;
     padding: 10px;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     grid-column: 3;
     grid-row: 1;
