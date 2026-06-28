@@ -18,9 +18,7 @@ body{
     align-items: center;
     
 }
-.box1, .box2, .box3, .box4{
-    flex: 1 1 280;
-    max-width: 100%;
+
 }
 .content{
     text-align: center;
